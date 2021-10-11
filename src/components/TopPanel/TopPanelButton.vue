@@ -1,15 +1,15 @@
 <template>
-  <button class="top-panel__button" />
+	<button class="top-panel__button" />
 </template>
 
 <script>
-export default {
-	name: 'TopPanelButton'
-};
+	export default {
+		name: 'TopPanelButton',
+	};
 </script>
 
 <style lang="scss" scoped>
-	.top-panel__button{
+	.top-panel__button {
 		position: relative;
 		padding: 0;
 		border-radius: 50%;
@@ -20,15 +20,15 @@ export default {
 		cursor: pointer;
 
 		&:hover,
-		&:focus{
+		&:focus {
 			filter: brightness(1.2);
 		}
 
-		&:focus{
+		&:focus {
 			outline: none;
 		}
 
-		&:first-child{
+		&:first-child {
 			margin-right: 30px;
 		}
 

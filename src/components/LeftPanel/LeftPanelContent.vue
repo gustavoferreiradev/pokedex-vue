@@ -5,17 +5,18 @@
 </template>
 
 <script>
-import List from '@/components/List/List.vue';
-export default {
-	name: 'LeftPanelContent',
-	components: {
-		List,
-	}
-}
+	import List from '@/components/List/List.vue';
+
+	export default {
+		name: 'LeftPanelContent',
+		components: {
+			List,
+		},
+	};
 </script>
 
 <style lang="scss" scoped>
-	.content{
+	.content {
 		width: 100%;
 
 		@media (min-width: $viewport-medium) {
